@@ -1,0 +1,6 @@
+
+
+the goal of this script is to allow milkvr (video player for gear vr) to play 3d video files from a local or remote webserver.
+the idea is stolen from https://github.com/abnormalend/milkvr-url-maker (create_url.sh did not work for me)
+This script creates an index.html that you can open from your android browser and which should aks you to plugin your
+phone into the gear vr so you can watch the file.
