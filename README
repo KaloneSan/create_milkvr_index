@@ -2,5 +2,14 @@
 
 the goal of this script is to allow milkvr (video player for gear vr) to play 3d video files from a local or remote webserver.
 the idea is stolen from https://github.com/abnormalend/milkvr-url-maker (create_url.sh did not work for me)
-This script creates an index.html that you can open from your android browser and which should aks you to plugin your
-phone into the gear vr so you can watch the file.
+This script creates an index.html file with links to the video files in the directory that also contains the video files. Current script
+assumes this is the root of your webserver.
+
+http://localhost/index.html
+
+You can open this from your android browser and which should aks you to plugin your
+phone into the gear vr so you can watch the file. It requires ruby and has only been tested on ubuntu linux, but should work in any
+environment. it also requires milvr installed on your samsung phone
+
+The script assumes that you have a webserver running. Change localhost to the FQDN of your server.
+If your video filename does not contain the 3d type, this script will assume it to be 3dh, which is probably wrong :)

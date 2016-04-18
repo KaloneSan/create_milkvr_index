@@ -4,7 +4,7 @@
 # milkvr://sideload/?url=http%3A%2F%2F10.10.10.10:8080%2Fvideofilename_3dh.mp4&video_type=3dh
 
 working_dir = "./"
-host = "thorgal.baator.nu"
+host = "localhost"
 port = "80"
 # default type horizontal
 video_type = "3dh"
